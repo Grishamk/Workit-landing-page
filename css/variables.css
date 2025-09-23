@@ -1,0 +1,26 @@
+/*VARIABLES*/
+:root{
+    /*COLORES*/
+    --color-background: #FCF8FF;
+    --color-primario: #24053E;
+    --color-secundario: #44FFA1;
+    --color-terciario: ##584D62;
+}
+
+/*RESETS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'manrope', sans-serif;
+}
+
+body{
+    font-size: 1.6rem;
+    color: var(--color-primario);
+    background-color: var(--color-background);
+}
